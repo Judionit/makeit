@@ -1,26 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+    <div
+      style={{
+        backgroundColor: "#6C79E7",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          flexDirection: "column",
+        }}
+      >
+        <h1 style={{ color: "#fff" }}>This is what I'll build</h1>
+        <p style={{ color: "rgba(0,0,0,0.5)" }}>
+          but need some mofidication and the design
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
+      <img
+        src={require("../images/things.png")}
+        style={{ width: "auto", height: "100vh" }}
+        alt=""
+      />
     </div>
   );
-}
+};
 
 export default App;
