@@ -6,8 +6,8 @@ This is project to help managing side project, minimal website for some website 
 
 To contribute to this project ?
 
-forke the project [Judionit/makeit](https://github.com/Judioni/makeit)
-clone your forked project
-cd makeit
-`yarn start`
+-forke the project [Judionit/makeit](https://github.com/Judionit/makeit)
+-clone your forked project
+-cd makeit
+-`yarn start`
 
